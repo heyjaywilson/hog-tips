@@ -12,7 +12,11 @@ $grey:   #cecece;
 
 .header {
   @include h-font;
+  background-color: $blue;
+  color: $grey;
   size: 4em;
+  text-align: center;
+  width: 100%;
 }
 
 .text {

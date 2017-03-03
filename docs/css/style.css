@@ -1,6 +1,10 @@
 .header {
   font-family: 'Anton', sans-serif;
-  size: 4em; }
+  background-color: #12419c;
+  color: #cecece;
+  size: 4em;
+  text-align: center;
+  width: 100%; }
 
 .text {
   font-family: 'Roboto', sans-serif; }
