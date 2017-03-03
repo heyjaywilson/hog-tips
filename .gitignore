@@ -2,6 +2,10 @@
 config.codekit3
 /min
 
+# extra folders
+.sass-cache
+.css.map
+
 # Mac
 *.DS_Store
 .AppleDouble
