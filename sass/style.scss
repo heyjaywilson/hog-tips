@@ -2,7 +2,7 @@ $yellow: #ffd200;
 $blue:   #12419c;
 $grey:   #cecece;
 
-@mixin header-font {
+@mixin h-font {
   font-family: 'Anton', sans-serif;
 }
 
@@ -11,8 +11,10 @@ $grey:   #cecece;
 }
 
 .header {
-  @include header-font;
+  @include h-font;
+  size: 4em;
 }
-.text{
+
+.text {
   @include reg-font;
 }
