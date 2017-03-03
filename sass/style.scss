@@ -13,3 +13,6 @@ $grey:   #cecece;
 .header {
   @include header-font;
 }
+.text{
+  @include reg-font;
+}
