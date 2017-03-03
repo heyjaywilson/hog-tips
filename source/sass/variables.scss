@@ -1,0 +1,10 @@
+//variables
+$yellow: #ffc43d;
+$blue:   #12419c;
+$grey:   #cecece;
+
+//set fonts
+@mixin header {
+  color: $grey;
+  font-family: 'Anton', sans-serif;
+}
