@@ -1,0 +1,15 @@
+$yellow: #ffd200;
+$blue:   #12419c;
+$grey:   #cecece;
+
+@mixin header-font {
+  font-family: 'Anton', sans-serif;
+}
+
+@mixin reg-font {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  @include header-font;
+}
