@@ -1,5 +1,6 @@
 .card {
   @include card-border($darkgrey, $border-radius);
+  background-color: $grey;
   border-radius: $border-radius;
   margin: 8px;
   padding: 10px;
@@ -23,4 +24,13 @@
 .card-title {
   //font-size: 1.5em;
   font-weight: 900;
+}
+
+.card-tag {
+  color: $red;
+  text-align: right;
+
+  a {
+    color: $red;
+  }
 }
