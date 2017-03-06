@@ -1,10 +1,14 @@
-@mixin addbackground($back) {
+@mixin add-background($back) {
   background-color: $back;
 }
 
-@mixin fontchoice($color, $font) {
+@mixin font-choice($color, $font) {
   color: $color;
   font-family: $font;
+}
+
+@mixin font-size($size) {
+  font-size: $fontsize * $size;
 }
 
 @mixin card-border($color, $br) {

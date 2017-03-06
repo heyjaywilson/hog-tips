@@ -2,7 +2,8 @@
   color: #231f20;
   font-family: "Roboto", sans-serif;
   margin: auto;
-  width: 960px; }
+  width: 960px;
+  display: flex; }
 
 .header {
   background-color: #12419c;
@@ -13,7 +14,8 @@
   font-size: 3em;
   margin: 0;
   padding: 2px;
-  text-align: center; }
+  text-align: center;
+  width: 100%; }
 
 .card {
   border: 2px solid #231f20;
@@ -30,6 +32,7 @@
   font-size: 3em;
   margin: 0;
   padding: 0;
+  text-align: center;
   width: 100%; }
 
 .num {
@@ -38,7 +41,8 @@
   color: #ffd200; }
 
 .card-title {
-  font-weight: 900; }
+  font-weight: 900;
+  text-align: center; }
 
 .card-tag {
   color: #bb4430;

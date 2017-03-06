@@ -8,10 +8,11 @@
 }
 
 .card-header {
-  @include fontchoice($darkgrey, $header);
-  font-size: 3em;
+  @include font-choice($darkgrey, $header);
+  @include font-size(3);
   margin: 0;
   padding: 0;
+  text-align: center;
   width: 100%;
 }
 
@@ -24,6 +25,7 @@
 .card-title {
   //font-size: 1.5em;
   font-weight: 900;
+  text-align: center;
 }
 
 .card-tag {

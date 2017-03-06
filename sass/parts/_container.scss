@@ -1,5 +1,6 @@
 .container {
-  @include fontchoice($darkgrey, $text);
+  @include font-choice($darkgrey, $text);
   margin: auto;
   width: $container-width;
+  display: flex;
 }
