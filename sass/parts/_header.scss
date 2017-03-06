@@ -1,0 +1,8 @@
+.header {
+  @include addbackground($blue);
+  @include fontchoice($grey, $header);
+  @include bottom-border($border-radius);
+  font-size: 2em;
+  padding: 5px;
+  text-align: center;
+}

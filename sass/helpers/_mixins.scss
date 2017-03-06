@@ -1,0 +1,18 @@
+@mixin addbackground($back) {
+  background-color: $back;
+}
+
+@mixin fontchoice($color, $font) {
+  color: $color;
+  font-family: $font;
+}
+
+@mixin card-border($color, $br) {
+  border: 2px solid $color;
+  border-radius: $br;
+}
+
+@mixin bottom-border($br) {
+  border-bottom-left-radius:  $br;
+  border-bottom-right-radius: $br;
+}
