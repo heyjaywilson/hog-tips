@@ -10,16 +10,21 @@
 }
 
 .nav-ul {
-  @extend %nav;
+  @extend .nav;
   display: flex;
   list-style-type: none;
 }
 
-.nav-ul-li-a {
-  color: $grey;
+.nav-ul-li {
   margin: 5px;
 
+}
+
+.nav-ul-li-a {
+  color: $red;
+  text-decoration: none;
+
   :visited {
-    color: $grey;
+    color: $red;
   }
 }

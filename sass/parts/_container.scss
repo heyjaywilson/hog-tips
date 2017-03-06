@@ -1,6 +1,15 @@
 .container {
   @include font-choice($darkgrey, $text);
-  margin: auto;
-  width: $container-width;
   display: flex;
+  margin: auto;
+  //width: $container-width;
+}
+
+.container-header {
+  @extend .container;
+}
+
+.container-cards {
+  @extend .container;
+  justify-content: space-around;
 }

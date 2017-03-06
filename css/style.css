@@ -1,9 +1,16 @@
-.container {
+.button {
+  background-color: #cecece;
+  border-radius: 5px;
+  font-size: 1.25em; }
+
+.container, .container-header, .container-cards {
   color: #231f20;
   font-family: "Roboto", sans-serif;
-  margin: auto;
-  width: 960px;
-  display: flex; }
+  display: flex;
+  margin: auto; }
+
+.container-cards {
+  justify-content: space-around; }
 
 .nav, .nav-ul {
   border-bottom-left-radius: 10px;
@@ -20,11 +27,14 @@
   display: flex;
   list-style-type: none; }
 
-.nav-ul-li-a {
-  color: #cecece;
+.nav-ul-li {
   margin: 5px; }
+
+.nav-ul-li-a {
+  color: #bb4430;
+  text-decoration: none; }
   .nav-ul-li-a :visited {
-    color: #cecece; }
+    color: #bb4430; }
 
 .header {
   background-color: #12419c;
@@ -43,7 +53,7 @@
   border-radius: 10px;
   background-color: #cecece;
   border-radius: 10px;
-  margin: 8px;
+  margin-top: 12px;
   padding: 10px;
   width: 300px; }
 
