@@ -1,0 +1,24 @@
+.nav {
+  @include bottom-border($border-radius);
+  background-color: $darkgrey;
+  display: flex;
+  font-size: $fontsize;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+
+    li {
+      margin: 0 2px;
+      @include font-choice($grey, $text);
+
+      a {
+        @include font-choice($grey, $text);
+       }
+    }
+  }
+}

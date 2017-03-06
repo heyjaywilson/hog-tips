@@ -2,9 +2,10 @@
   @include add-background($blue);
   @include font-choice($grey, $header);
   @include bottom-border($border-radius);
-  @include font-size(3);
-  margin: 0;
-  padding: 2px;
   text-align: center;
   width: 100%;
+}
+
+.h1 {
+  @include font-size(5);
 }
