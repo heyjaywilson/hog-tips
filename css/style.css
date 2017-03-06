@@ -1,9 +1,8 @@
 .container {
   color: #231f20;
   font-family: "Roboto", sans-serif;
-  margin: auto;
-  width: 960px;
-  display: flex; }
+  display: flex;
+  margin: auto; }
 
 .nav, .nav-ul {
   border-bottom-left-radius: 10px;

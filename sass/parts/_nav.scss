@@ -10,7 +10,7 @@
 }
 
 .nav-ul {
-  @extend %nav;
+  @extend .nav;
   display: flex;
   list-style-type: none;
 }
