@@ -2,7 +2,8 @@
   @include addbackground($blue);
   @include fontchoice($grey, $header);
   @include bottom-border($border-radius);
-  font-size: 2em;
-  padding: 5px;
+  font-size: 3em;
+  margin: 0;
+  padding: 2px;
   text-align: center;
 }

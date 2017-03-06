@@ -1,4 +1,5 @@
 .container {
+  @include fontchoice($darkgrey, $text);
   margin: auto;
   width: $container-width;
 }

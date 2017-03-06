@@ -6,9 +6,9 @@
   width: $card-width;
 }
 
-h2 {
+.card-header {
   @include fontchoice($darkgrey, $header);
-  font-size: 2.5em;
+  font-size: 3em;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -18,4 +18,9 @@ h2 {
   -webkit-text-stroke: 1px;
   -webkit-text-stroke-color: $darkgrey;
   color: $yellow;
+}
+
+.card-title {
+  //font-size: 1.5em;
+  font-weight: 900;
 }
