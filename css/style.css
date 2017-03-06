@@ -1,7 +1,7 @@
 .button {
+  background-color: #cecece;
   border-radius: 5px;
-  font-size: 1.25em;
-  background-color: #cecece; }
+  font-size: 1.25em; }
 
 .container, .container-header, .container-cards {
   color: #231f20;
