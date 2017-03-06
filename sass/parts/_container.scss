@@ -4,3 +4,12 @@
   margin: auto;
   //width: $container-width;
 }
+
+.container-header {
+  @extend .container;
+}
+
+.container-cards {
+  @extend .container;
+  justify-content: space-around;
+}

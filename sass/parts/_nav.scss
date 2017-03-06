@@ -14,12 +14,15 @@
   display: flex;
   list-style-type: none;
 }
+.nav-ul-li{
+  margin: 5px;
+}
 
 .nav-ul-li-a {
-  color: $grey;
-  margin: 5px;
+  color: $red;
+  text-decoration: none;
 
   :visited {
-    color: $grey;
+    color: $red;
   }
 }
