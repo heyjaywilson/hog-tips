@@ -1,24 +1,25 @@
 .nav {
   @include bottom-border($border-radius);
+  @include font-choice($grey, $text);
   background-color: $darkgrey;
   display: flex;
   font-size: $fontsize;
-  margin: 0;
+
   padding: 0;
-  width: 100%;
+  padding-left: 5px;
+}
 
-  ul {
-    display: flex;
-    list-style-type: none;
-    text-align: center;
+.nav-ul {
+  @extend .nav;
+  display: flex;
+  list-style-type: none;
+}
 
-    li {
-      margin: 0 2px;
-      @include font-choice($grey, $text);
+.nav-ul-li-a {
+  color: $grey;
+  margin: 5px;
 
-      a {
-        @include font-choice($grey, $text);
-       }
-    }
+  :visited {
+    color: $grey;
   }
 }
