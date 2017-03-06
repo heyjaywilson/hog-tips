@@ -2,7 +2,7 @@
   @include card-border($darkgrey, $border-radius);
   background-color: $grey;
   border-radius: $border-radius;
-  margin: 8px;
+  margin-top: 12px;
   padding: 10px;
   width: $card-width;
 }
@@ -31,6 +31,7 @@
 .card-tag {
   color: $red;
   text-align: right;
+
   a {
     color: $red;
   }
