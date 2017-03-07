@@ -12,6 +12,9 @@
 .container-cards {
   justify-content: space-around; }
 
+.body {
+  padding: 0; }
+
 .nav, .nav-ul {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -76,7 +79,15 @@
   text-align: center; }
 
 .card-tag {
-  color: #bb4430;
   text-align: right; }
   .card-tag a {
     color: #bb4430; }
+
+@media only screen and (max-width: 650px) {
+  .container, .container-header, .container-cards {
+    display: block;
+    margin: auto; }
+  .card {
+    margin: auto;
+    margin-top: 5%;
+    width: 275px; } }
