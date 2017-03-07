@@ -2,8 +2,8 @@
   @include add-background($blue);
   @include font-choice($grey, $header);
   @include bottom-border($border-radius);
-  text-align: center;
   width: 100%;
+  text-align: center
 }
 
 .h1 {

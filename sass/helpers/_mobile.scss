@@ -1,12 +1,13 @@
 @media only screen and (max-width: 650px) {
   .container{
-    display: block;
+    flex-wrap: wrap;
     margin: auto;
+
   }
 
   .card{
     margin: auto;
-    margin-top: 5%;
     width: $card-width-mobile;
+    margin-top: 5%;
   }
 }
