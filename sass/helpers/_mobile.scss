@@ -5,6 +5,10 @@
 
   }
 
+  .h1 {
+    @include font-size(3);
+  }
+
   .card{
     margin: auto;
     width: $card-width-mobile;

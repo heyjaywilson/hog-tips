@@ -87,6 +87,8 @@
   .container, .container-header, .container-cards {
     flex-wrap: wrap;
     margin: auto; }
+  .h1 {
+    font-size: 3em; }
   .card {
     margin: auto;
     width: 275px;
