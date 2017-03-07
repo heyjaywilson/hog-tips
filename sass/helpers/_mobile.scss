@@ -1,17 +1,11 @@
 @media only screen and (max-width: 650px) {
-  .container{
-    flex-wrap: wrap;
-    margin: auto;
-
-  }
-
   .h1 {
     @include font-size(3);
   }
 
   .card{
-    margin: auto;
-    width: $card-width-mobile;
+    //margin: auto;
     margin-top: 5%;
+    width: $card-width-mobile;
   }
 }

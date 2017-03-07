@@ -7,6 +7,7 @@
   color: #231f20;
   font-family: "Roboto", sans-serif;
   display: flex;
+  flex-wrap: wrap;
   margin: auto; }
 
 .container-cards {
@@ -84,12 +85,8 @@
     color: #bb4430; }
 
 @media only screen and (max-width: 650px) {
-  .container, .container-header, .container-cards {
-    flex-wrap: wrap;
-    margin: auto; }
   .h1 {
     font-size: 3em; }
   .card {
-    margin: auto;
-    width: 275px;
-    margin-top: 5%; } }
+    margin-top: 5%;
+    width: 275px; } }
