@@ -88,10 +88,3 @@
   text-align: right; }
   .card-tag a {
     color: #bb4430; }
-
-@media only screen and (max-width: 650px) {
-  .h1 {
-    font-size: 3em; }
-  .card {
-    margin-top: 5%;
-    width: 275px; } }
