@@ -8,4 +8,7 @@
 
 .h1 {
   @include font-size(5);
+  @media only screen and (max-width: 650px) {
+      @include font-size(3);
+    }
 }

@@ -5,6 +5,10 @@
   margin-top: 12px;
   padding: 10px;
   width: $card-width;
+  @media only screen and (max-width: 650px) {
+    margin-top: 5%;
+    width: $card-width-mobile;
+  }
 }
 
 .card-header {
