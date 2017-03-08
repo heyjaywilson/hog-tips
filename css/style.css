@@ -33,6 +33,7 @@
   background-color: #cecece;
   border-radius: 10px;
   margin: 12px;
+  margin-left: 4px;
   padding: 10px;
   width: 300px; }
   @media only screen and (max-width: 650px) {
@@ -72,7 +73,9 @@
   font-family: "Roboto", sans-serif;
   width: 100%;
   text-align: center;
-  margin-top: 20%; }
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 10px; }
   .footer a {
     color: #bb4430;
     text-decoration: none; }
