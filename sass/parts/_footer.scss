@@ -1,0 +1,16 @@
+.footer{
+  @include font-choice($grey, $text);
+  width: 100%;
+  text-align: center;
+  margin-top:20%;
+
+  a{
+    color: $red;
+    text-decoration: none;
+  }
+
+  a:visited{
+      color: $red;
+      text-decoration: none;
+    }
+}

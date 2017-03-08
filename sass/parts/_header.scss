@@ -1,7 +1,7 @@
 .header {
   @include add-background($blue);
   @include font-choice($grey, $header);
-  @include bottom-border($border-radius);
+  //@include bottom-border($border-radius);
   width: 100%;
   text-align: center
 }

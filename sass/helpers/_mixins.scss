@@ -11,11 +11,6 @@
   font-size: $fontsize * $size;
 }
 
-@mixin card-border($color, $br) {
-  border: 2px solid $color;
-  border-radius: $br;
-}
-
 @mixin bottom-border($br) {
   border-bottom-left-radius: $br;
   border-bottom-right-radius: $br;

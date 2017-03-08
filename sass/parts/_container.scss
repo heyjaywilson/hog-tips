@@ -2,7 +2,7 @@
   @include font-choice($darkgrey, $text);
   display: flex;
   flex-wrap: wrap;
-  margin: auto;
+  //margin: auto;
 }
 
 .container-header {
@@ -13,7 +13,8 @@
   @extend .container;
   justify-content: space-around;
 }
-
+//BODY!
 .body {
   padding: 0;
+  @include add-background($darkgrey);
 }
