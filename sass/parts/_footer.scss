@@ -2,7 +2,9 @@
   @include font-choice($grey, $text);
   width: 100%;
   text-align: center;
-  margin-top:20%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 10px;
 
   a{
     color: $red;
