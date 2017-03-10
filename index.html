@@ -11,22 +11,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
     <link href="css/style.css" rel="stylesheet">
     <!--google-analytics-->
-  <script>
-    (function (i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function () {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-93125405-1', 'auto');
-    ga('send', 'pageview');
-  </script>
+        ga('create', 'UA-93125405-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 </head>
 
 <body class="body">
@@ -36,17 +36,39 @@
         </header>
     </section>
     <section class="container-cards">
+        <!--Card #004-->
+        <div class="card" id="004">
+            <h2 class="card-header">Hog Tip <span class="num">#004</span></h2>
+            <h2 class="card-title">How to Goto Cue on a Different Master</h2>
+            <div class="card-description">
+                <p>Using the [Goto] button:</p>
+                <p><code class="code">[Goto] Master#/Cue#</code></p>
+                <p><strong>Example</strong></p>
+                <ul>
+                    <li><code class="code">[Goto] 5 / 3</code></li>
+                </ul>
+                </p>
+                <hr>
+                <p><strong>OR</strong></p>
+                <hr>
+                <p>
+                    <code class="code">[Choose]</code> above master you want to go on <code class="code">[Goto] Cue#</code>.</p>
+                <p class="card-tag"><a href="#" class="play">#playback</a></p>
+            </div>
+        </div>
         <!--Card #003-->
         <div class="card" id="003">
             <h2 class="card-header">Hog Tip <span class="num">#003</span></h2>
-            <h2 class="card-title" id="dots">Usefuly User Numbers</h2>
-            <div class="card-description">Use dotted user numbers to help with grouping. This allows for quicker selection</p>
+            <h2 class="card-title">Usefuly User Numbers</h2>
+            <div class="card-description">
+                <p>Use dotted user numbers to help with grouping. This allows for quicker selection</p>
                 <p><strong>Example</strong>
                     <ul>
                         <li>Truss 1- 1.1 1.2 1.3</li>
                         <li>Truss 2- 2.1 2.2 2.3 </li>
                         <li>Truss 3- 3.1 3.2 3.3</li>
-                    </ul> If I type <code class="code">1</code>, then it will select all of truss 1. If I type <code class="code">1 [+] 2</code>, then all of truss 1 and 2 will be selected. Then, if I type <code class="code">.2 [+] [enter]</code> 1.2 and 2.2 will be selected.</p>
+                    </ul> If I type <code class="code">1</code>, then it will select all of truss 1. If I type <code class="code">1 [+] 2</code>, then all of truss 1 and 2 will be selected. Then, if I type <code class="code">.2 [+] [enter]</code> 1.2 and 2.2
+                    will be selected.</p>
                 </p>
                 <p class="card-tag"><a href="#" class="prog">#programming</a></p>
             </div>
@@ -54,14 +76,14 @@
         <!--Card #002-->
         <div class="card" id="002">
             <h2 class="card-header">Hog Tip <span class="num">#002</span></h2>
-            <h2 class="card-title" id="hognet">When to use HogNet?</h2>
+            <h2 class="card-title">When to use HogNet?</h2>
             <p class="card-description">HogNet is used to connect DP 8000's, OSC (Open Sound Control), and backup/tracking consoles.</p>
             <p class="card-tag"><a href="#" class="net">#networking</a></p>
         </div>
         <!--Card #001-->
         <div class="card" id="001">
             <h2 class="card-header">Hog Tip <span class="num">#001</span></h2>
-            <h2 class="card-title" id="fixturenet">When to use FixtureNet?</h2>
+            <h2 class="card-title">When to use FixtureNet?</h2>
             <p class="card-description">FixtureNet is used to connect media servers, ArtNet nodes, E1.31(SACN), video switchers, and Visualizers.</p>
             <p class="card-tag"><a href="#" class="net">#networking</a></p>
         </div>
