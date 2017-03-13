@@ -1,6 +1,8 @@
 .card {
   background-color: $grey;
   border-radius: $border-card-radius;
+  border: solid 3px $darkgrey;
+  box-shadow: 4px 4px 4px rgba(35, 31, 32, .5);
   margin: 12px;
   margin-left: 4px;
   padding: 10px;
