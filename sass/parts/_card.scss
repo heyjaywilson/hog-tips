@@ -6,10 +6,13 @@
   margin-left: 4px;
   padding: 10px;
   width: $card-width;
+  //transition for card shadow
   transition-property: box-shadow;
   transition-duration: 1s;
  	transition-delay: 0s;
 	box-shadow: 0px 0px 0px 0px rgba(35, 31, 32, .2);
+
+  //allows for cards to have a shadow on mouse hover
   &:hover{
 		transition-property: box-shadow;
   	transition-duration: 1.5s;
