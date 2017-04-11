@@ -5,7 +5,7 @@
 
 # Using 1 console or networked consoles with multiple people
 
-Assign everyone their own user so that everyone can have their own preferences set. 
+Assign everyone their own user so that everyone can have their own preferences set.
 
 ### How to Create a User
 1. Open the show manager window
