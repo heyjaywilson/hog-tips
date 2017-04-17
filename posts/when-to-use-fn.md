@@ -23,7 +23,15 @@ Why the table above does work:
 | ArtNet node | 2.0.0.1 | 255.255.0.0 |
 | Media server | 2.10.10.1 | 255.255.0.0 |
 | ArtNet node 2 |10.101.10.1 | 255.255.255.0 |
-Why the table above does NOT work:
+Why the table above does **NOT** work:
 - IP addresses are not beginning with the same number
     - 10.0, 10.101, 2.0, and 2.10 are all different
 - The netmasks are different on all devices
+
+#### Console and DP 80000
+Change the FixtureNet IP address to be in the same range as your devices
+-  How to get there on console: ```
+[setup] (control panel) (FixtureNet)```
+-  How to get there on DP8K:
+    - Through the console: ```
+[setup] (network) right-click on "DP 8000" (settings) (FixtureNet)```
