@@ -9,9 +9,6 @@ function newTip(ttl, dscrp, tg) {
     };
     cardList.push(cardObj);
 }
-function printCards(){
-
-}
 
 newTip('When to use FixtureNet?', 'FixtureNet is used to connect media servers, ArtNet nodes, E1.31(SACN), video switchers, and Visualizers.', 'networking'
 );
