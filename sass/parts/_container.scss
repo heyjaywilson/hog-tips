@@ -18,3 +18,6 @@
   padding: 0;
   @include add-background($grey2);
 }
+.dontShow{
+  display: none;
+}

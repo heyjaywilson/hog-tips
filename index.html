@@ -2,117 +2,116 @@
 <html lang="en">
 
 <head>
-    <title>Hog Tips</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Hog 4 programming tips.">
-    <!--FONTS-->
-    <link href="https://fonts.googleapis.com/css?family=Anton|Roboto" rel="stylesheet">
-    <!--Stylesheets-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
-    <link href="css/style.css" rel="stylesheet">
-    <!--google-analytics-->
-    <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-93125405-1', 'auto');
-        ga('send', 'pageview');
-    </script>
+  <title>Hog Tips</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hog 4 programming tips.">
+  <!--FONTS-->
+  <link href="https://fonts.googleapis.com/css?family=Anton|Roboto" rel="stylesheet">
+  <!--Stylesheets-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
+  <link href="css/style.css" rel="stylesheet">
+  <!--google-analytics-->
 </head>
 
 <body class="body">
-    <section class="container-header">
-        <header class="header">
-            <h1 class="h1">Hog Tips</h1>
-        </header>
-    </section>
-    <section class="container-cards">
-      <!--Card #006-->
-      <div class="card" id="006">
-          <h2 class="card-header">Hog Tip <span class="num">#006</span></h2>
-          <h2 class="card-title">Effect @ Pallets</h2>
-          <p>To chase between two pallets:
-          <code class="code">[effect] [@] pallet 1 [thru] pallet 2</code>
-          This will default with a sine table. Change to a step table for a snap between the two pallets.</p>
-          <p><strong>Example</strong></p>
-          <p>Color pallet 12 is a mixed red, and color pallet 14 is a mixed blue.</p>
-          <p><code class="code">[Effect] [@] [Color] 12 [thru] [Color] 14</code> will chase between red and blue</p>
-          <p class="card-tag"><a href="#" class="prog">#programming</a></p>
+  <section class="container-header">
+    <header class="header">
+      <h1 class="h1">Hog Tips</h1>
+      <nav>
+        <ul>
+          <li class="js-prog">Programming</li>
+          <li class="js-net">Networking</li>
+          <li class="js-play">Playback</li>
+          <li class="js-showAll dontShow">Show all tips</li>
+        </ul>
+        <div class="showAll dontShow">Show all tips</div>
+      </nav>
+    </header>
+  </section>
+  <section class="container-cards">
+    <!--Card #006-->
+    <div class="card prog" id="006">
+      <h2 class="card-header">Hog Tip <span class="num">#006</span></h2>
+      <h2 class="card-title">Effect @ Pallets</h2>
+      <p>To chase between two pallets:
+        <code class="code">[effect] [@] pallet 1 [thru] pallet 2</code> This will default with a sine table. Change to a step table for a snap between the two pallets.</p>
+      <p><strong>Example</strong></p>
+      <p>Color pallet 12 is a mixed red, and color pallet 14 is a mixed blue.</p>
+      <p><code class="code">[Effect] [@] [Color] 12 [thru] [Color] 14</code> will chase between red and blue</p>
+      <p class="card-tag"><a href="#" class="js-prog">#programming</a></p>
+    </div>
+    <!--Card #005-->
+    <div class="card net" id="005">
+      <h2 class="card-header">Hog Tip <span class="num">#005</span></h2>
+      <h2 class="card-title">HogNet and FixtureNet cannot be the same</h2>
+      <p>HogNet and FixtureNet cannot have the same IP address and cannot be in the same range. This will cause the ports to not operate as expected.</p>
+      <p class="card-tag"><a href="#" class="js-net">#networking</a></p>
+    </div>
+    <!--Card #004-->
+    <div class="card play" id="004">
+      <h2 class="card-header">Hog Tip <span class="num">#004</span></h2>
+      <h2 class="card-title">How to Goto Cue on a Different Master</h2>
+      <div>
+        <p>Using the [Goto] button:</p>
+        <p><code class="code">[Goto] Master#/Cue#</code></p>
+        <p><strong>Example</strong></p>
+        <ul>
+          <li><code class="code">[Goto] 5 / 3</code></li>
+        </ul>
+        </p>
+        <hr>
+        <p><strong>OR</strong></p>
+        <hr>
+        <p>
+          <code class="code">[Choose]</code> above master you want to go on <code class="code">[Goto] Cue#</code>.</p>
+        <p class="card-tag"><a href="#" class="js-play">#playback</a></p>
       </div>
-      <!--Card #005-->
-      <div class="card" id="005">
-          <h2 class="card-header">Hog Tip <span class="num">#005</span></h2>
-          <h2 class="card-title">HogNet and FixtureNet cannot be the same</h2>
-          <p>HogNet and FixtureNet cannot have the same IP address and cannot be in the same range. This will cause the ports to not operate as expected.</p>
-          <p class="card-tag"><a href="#" class="net">#networking</a></p>
+    </div>
+    <!--Card #003-->
+    <div class="card prog" id="003">
+      <h2 class="card-header">Hog Tip <span class="num">#003</span></h2>
+      <h2 class="card-title">Useful User Numbers</h2>
+      <div>
+        <p>Use dotted user numbers to help with grouping. This allows for quicker selection</p>
+        <p><strong>Example</strong>
+          <ul>
+            <li>Truss 1- 1.1 1.2 1.3</li>
+            <li>Truss 2- 2.1 2.2 2.3 </li>
+            <li>Truss 3- 3.1 3.2 3.3</li>
+          </ul> If I type <code class="code">1</code>, then it will select all of truss 1. If I type <code class="code">1 [+] 2</code>, then all of truss 1 and 2 will be selected. Then, if I type <code class="code">.2 [+] [enter]</code> 1.2 and 2.2 will be
+          selected.</p>
+        </p>
+        <p class="card-tag"><a href="#" class="js-prog">#programming</a></p>
       </div>
-        <!--Card #004-->
-        <div class="card" id="004">
-            <h2 class="card-header">Hog Tip <span class="num">#004</span></h2>
-            <h2 class="card-title">How to Goto Cue on a Different Master</h2>
-            <div>
-                <p>Using the [Goto] button:</p>
-                <p><code class="code">[Goto] Master#/Cue#</code></p>
-                <p><strong>Example</strong></p>
-                <ul>
-                    <li><code class="code">[Goto] 5 / 3</code></li>
-                </ul>
-                </p>
-                <hr>
-                <p><strong>OR</strong></p>
-                <hr>
-                <p>
-                    <code class="code">[Choose]</code> above master you want to go on <code class="code">[Goto] Cue#</code>.</p>
-                <p class="card-tag"><a href="#" class="play">#playback</a></p>
-            </div>
-        </div>
-        <!--Card #003-->
-        <div class="card" id="003">
-            <h2 class="card-header">Hog Tip <span class="num">#003</span></h2>
-            <h2 class="card-title">Usefuly User Numbers</h2>
-            <div>
-                <p>Use dotted user numbers to help with grouping. This allows for quicker selection</p>
-                <p><strong>Example</strong>
-                    <ul>
-                        <li>Truss 1- 1.1 1.2 1.3</li>
-                        <li>Truss 2- 2.1 2.2 2.3 </li>
-                        <li>Truss 3- 3.1 3.2 3.3</li>
-                    </ul> If I type <code class="code">1</code>, then it will select all of truss 1. If I type <code class="code">1 [+] 2</code>, then all of truss 1 and 2 will be selected. Then, if I type <code class="code">.2 [+] [enter]</code> 1.2 and 2.2
-                    will be selected.</p>
-                </p>
-                <p class="card-tag"><a href="#" class="prog">#programming</a></p>
-            </div>
-        </div>
-        <!--Card #002-->
-        <div class="card" id="002">
-            <h2 class="card-header">Hog Tip <span class="num">#002</span></h2>
-            <h2 class="card-title">When to use HogNet?</h2>
-            <p class>HogNet is used to connect DP 8000's, OSC (Open Sound Control), and backup/tracking consoles.</p>
-            <p class="card-tag"><a href="#" class="net">#networking</a></p>
-        </div>
-        <!--Card #001-->
-        <div class="card" id="001">
-            <h2 class="card-header">Hog Tip <span class="num">#001</span></h2>
-            <h2 class="card-title">When to use FixtureNet?</h2>
-            <p>FixtureNet is used to connect media servers, ArtNet nodes, E1.31(SACN), video switchers, and Visualizers.</p>
-            <p class="card-tag"><a href="#" class="net">#networking</a></p>
-        </div>
-    </section>
-    <!--FOOTER-->
-    <section class="container">
-        <footer class="footer">Contribute on <a href="https://github.com/maeganjwilson/hog-tips">Github</a> or <a href="https://trello.com/b/z6SXTDHl/hog-tips">Trello</a>
-        </footer>
-    </section>
+    </div>
+    <!--Card #002-->
+    <div class="card net" id="002">
+      <h2 class="card-header">Hog Tip <span class="num">#002</span></h2>
+      <h2 class="card-title">When to use HogNet?</h2>
+      <p class>HogNet is used to connect DP 8000's, OSC (Open Sound Control), and backup/tracking consoles.</p>
+      <p class="card-tag"><a href="#" class="js-net">#networking</a></p>
+    </div>
+    <!--Card #001-->
+    <div class="card net" id="001">
+      <h2 class="card-header">Hog Tip <span class="num">#001</span></h2>
+      <h2 class="card-title">When to use FixtureNet?</h2>
+      <p>FixtureNet is used to connect media servers, ArtNet nodes, E1.31(SACN), video switchers, and Visualizers.</p>
+      <p class="card-tag"><a href="#" class="js-net">#networking</a></p>
+    </div>
+  </section>
+
+  <!--FOOTER-->
+  <section class="container">
+    <footer class="footer">Contribute on <a href="https://github.com/maeganjwilson/hog-tips">Github</a> or <a href="https://trello.com/b/z6SXTDHl/hog-tips">Trello</a>
+    </footer>
+  </section>
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <!-- JS Link -->
+  <script src="js/app-min.js"></script>
+
 </body>
 
 </html>
