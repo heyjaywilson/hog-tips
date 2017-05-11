@@ -1,3 +1,7 @@
+/*=============================================>>>>>
+= show and hide =
+===============================================>>>>>*/
+
 function hide(select){
   select.addClass('dontShow');
 }
@@ -10,7 +14,9 @@ function showButton() {
 function hideButton() {
   $('.js-showAll').addClass('dontShow');
 
-}
+
+/*= End of show and hide =*/
+/*=============================================<<<<<*/
 
 /*=============================================>>>>>
 = Shows and hides as needed =
