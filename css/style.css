@@ -31,7 +31,9 @@
 
 nav {
   display: flex;
-  margin-bottom: 0; }
+  font-size: 1.25em;
+  margin-bottom: 0;
+  padding-left: 12px; }
   nav ul {
     background-color: #bb4430;
     display: flex;
@@ -40,7 +42,7 @@ nav {
     margin-left: 0;
     padding: 0; }
     nav ul li {
-      margin: 5px; }
+      margin: 12px; }
 
 .card {
   background-color: #cecece;

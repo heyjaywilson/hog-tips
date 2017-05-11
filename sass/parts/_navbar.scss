@@ -1,6 +1,8 @@
 nav{
   display: flex;
+  font-size: 1.25em;
   margin-bottom: 0;
+  padding-left: 12px;
   ul{
     background-color: $red;
     display: flex;
@@ -9,7 +11,7 @@ nav{
     margin-left: 0;
     padding: 0;
     li{
-      margin: 5px;
+      margin: 12px;
     }
   }
 }

@@ -30,6 +30,24 @@ $('.card-tag').on('click', '.js-play', function (){
   show($('.play'));
   showButton();
 });
+
+$('.js-prog').on('click', function (){
+  hide($('.card'));
+  show($('.prog'));
+  showButton();
+});
+$('.js-net').on('click', function (){
+  hide($('.card'));
+  show($('.net'));
+  showButton();
+});
+$('.js-play').on('click', function (){
+  hide($('.card'));
+  show($('.play'));
+  showButton();
+});
+
+
 $('.js-showAll').on('click', function(){
   hideButton();
   show($('.card'));
