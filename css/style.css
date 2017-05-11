@@ -11,6 +11,9 @@
   padding: 0;
   background-color: #a6a6a8; }
 
+.dontShow {
+  display: none; }
+
 .header {
   background-color: #12419c;
   color: #cecece;
