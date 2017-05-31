@@ -28,10 +28,9 @@ Why the table above does **NOT** work:
     - 10.0, 10.101, 2.0, and 2.10 are all different
 - The netmasks are different on all devices
 
-#### Console and DP 80000
+#### Console
 Change the FixtureNet IP address to be in the same range as your devices
--  How to get there on console: ```
-[setup] (control panel) (FixtureNet)```
--  How to get there on DP8K:
-    - Through the console: ```
-[setup] (network) right-click on "DP 8000" (settings) (FixtureNet)```
+- Navigate to the FixtureNet tab in the control panel
+    - ```[Setup] (Contril Panel) (FixtureNet)```
+- Change the FixtureNet IP address to be in the same IP range as your ArtNet Node or Fixture
+- Change the FixtureNet netmask to be in the same range as your 
