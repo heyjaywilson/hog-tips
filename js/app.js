@@ -13,7 +13,7 @@ function showButton() {
 }
 function hideButton() {
   $('.js-showAll').addClass('dontShow');
-
+}
 
 /*= End of show and hide =*/
 /*=============================================<<<<<*/
